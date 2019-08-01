@@ -9,5 +9,12 @@
   "hubot-redis-brain",
   "hubot-rules",
   "hubot-shipit",
-  "hubot-plusplus"
+  "hubot-plusplus",
+  "hubot-auth",
+  "hubot-factoids",
+  "hubot-fliptable",
+  "hubot-seen",
+  "hubot-pager-me",
+  "hubot-youtube",
+  "hubot-dogeme"
 ]
