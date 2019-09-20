@@ -142,8 +142,8 @@ module.exports = (robot) ->
 
     msg.send reasonString
 
-  robot.respond /(top|bottom) (\d+)/i, (msg) ->
-    amount = parseInt(msg.match[2]) || 10
+  robot.respond /(top|bottom)( (\d+)|)/i, (msg) ->
+    amount = parseInt(msg.match[3]) || 10
     message = []
 
     tops = scoreKeeper[msg.match[1]](amount)
