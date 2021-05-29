@@ -27,6 +27,6 @@
     "hubot-shipit": "^0.2.1",
     "hubot-slack": "^4.7.2",
     "hubot-youtube": "^1.1.1",
-    "ws": "^7.2.5"
+    "ws": "^7.4.6"
   }
 }
